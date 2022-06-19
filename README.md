@@ -20,8 +20,10 @@ And then run with either minmax or alphabeta and the depth.
 
 You can also define #DEBUG in the play_game.cpp file if you want to see the number of nodes explored and the time taken to reach the solution. 
 
-Example of run: .\connectfour.exe minmax shallow
+Example of run:
 
-                or
+                .\connectfour.exe minmax shallow
+
+or
 
                 .\connectfour.exe alphabeta medium
