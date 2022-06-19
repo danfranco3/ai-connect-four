@@ -14,7 +14,9 @@ If X can win in moves 13 and 17, there is no incentive for it to win earlier.
 
 You can play with three different depths (shallow, medium or deep) for both algorithms. This exists because of the different depths for the minmax search.
 
-To compile the program please run g++ .\main.cpp .\play_game.cpp .\utility.cpp .\game.cpp .\interaction.cpp -o connectfour.exe
+To compile the program please run
+
+            g++ .\main.cpp .\play_game.cpp .\utility.cpp .\game.cpp .\interaction.cpp -o connectfour.exe
 
 And then run with either minmax or alphabeta and the depth.
 
